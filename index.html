@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menuzôncio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="navbar target">
+        <a href="#homepage" class="navbar-link">
+            <i class="fas fa-home"></i> 
+            <span>Início</span>  
+        </a>
+        <a href="#meals" class="navbar-link">
+            <i class="fas fa-utensils"></i> 
+            <span>Menu</span>  
+        </a>
+        <a href="#meals" class="navbar-link">
+            <i class="fas fa-hamburger"></i> 
+            <span>Podrão</span>  
+        </a>
+        <a href="#gallery1" class="navbar-link">
+            <i class="fas fa-images"></i>
+            <span>Galeria</span>  
+        </a>
+        <a href="#info" class="navbar-link">
+            <i class="fas fa-phone-square-alt"></i>
+            <span>Contato</span>  
+        </a>
+    </nav>
+    <div class="menu target"></div>
+
+    <div class="container">
+        <section id="homepage" class="section-1">
+            <h1 class="section-heading">
+                Menu
+            </h1>
+            <div class="section-1-icons">
+                <i class="fas fa-egg change"></i>
+                <i class="fas fa-pizza-slice"></i>
+                <i class="fas fa-cheese"></i>
+                <i class="fas fa-hotdog"></i>
+                <i class="fas fa-drumstick-bite"></i>
+                <i class="fas fa-apple-alt"></i>
+                <i class="fas fa-ice-cream"></i>
+                <i class="fas fa-fish"></i>
+                <i class="fas fa-cookie"></i>
+                <i class="fas fa-seedling"></i>      
+            </div>
+        </section>
+
+        <section id="meals" class="section-2">
+            <h1 class="section-heading">
+                Pratos principais   
+            </h1>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="images/fishlogo.png" class="card-img">
+                    <h3 class="card-name">Peixe</h3>
+                    <button class="card-btn">Peça já</button>
+                </div>
+                <div class="card">
+                    <img src="images/cakelogo.png" class="card-img">
+                    <h3 class="card-name">Bolo</h3>
+                    <button class="card-btn">Peça já</button>
+                </div>
+                <div class="card">
+                    <img src="images/shrimplogo.png" class="card-img">
+                    <h3 class="card-name">Camarão</h3>
+                    <button class="card-btn">Peça já</button>
+                </div>   
+            </div>
+        </section>
+
+        <section id= "gallery1" class="section-3">
+            <h1 class="section-heading">
+                Galeria  
+            </h1>
+            <div class="gallery">
+                <a href="#" class="gallery-link" title="Faça seu pedido">
+                    <img src="images/crepe1.jpg" class="food-img">
+                    <h3 class="food-name">Crepes</h3>
+                    <p class="food-description">
+                        Melhor crepe do mundo é aqui!
+                    </p>
+                </a>
+                <a href="#" class="gallery-link" title="Faça seu pedido">
+                    <img src="images/pizza1.jpg" class="food-img">
+                    <h3 class="food-name">Pizzas</h3>
+                    <p class="food-description">
+                        Melhor pizza do mundo é aqui!
+                    </p>   
+                </a> 
+                <a href="#" class="gallery-link" title="Faça seu pedido">
+                    <img src="images/sushi1.jpg" class="food-img">
+                    <h3 class="food-name">Sushi</h3>
+                    <p class="food-description">
+                        Melhor sushi do mundo é aqui!
+                    </p>    
+                </a> 
+                <a href="#" class="gallery-link" title="Faça seu pedido">
+                    <img src="images/sanduiche1.jpg" class="food-img">
+                    <h3 class="food-name">Sanduíches</h3>
+                    <p class="food-description">
+                        Melhor sanduíche do mundo é aqui!
+                    </p>
+                       
+                </a> 
+                <a href="#" class="gallery-link" title="Faça seu pedido">
+                    <img src="images/omelete1.jpg" class="food-img">
+                    <h3 class="food-name">Omeletes</h3>
+                    <p class="food-description">
+                        Melhor omelete do mundo é aqui!
+                    </p>
+                </a> 
+                <a href="#" class="gallery-link" title="Faça seu pedido">
+                    <img src="images/sorvete1.jpg" class="food-img">
+                    <h3 class="food-name">Sorvetes</h3>
+                    <p class="food-description">
+                        Melhor sorvete do mundo é aqui!
+                    </p>
+                </a>  
+            </div>
+        </section>
+
+        <section id="info" class="section-4">
+            <div class="section-4-text">
+                <h2 class="section-4-heading">
+                    Cadastre-se  
+                </h2>
+                <p class="section-4-paragraph">
+                    Seja o primeiro a saber sobre os novos produtos
+                </p>
+            </div>
+            <form class="signup-form">
+                <input type="email" class="signup-form-input" placeholder="Digite seu email aqui"> 
+                <button type="submit" class="signup-form-btn">
+                    <i class="fas fa-chevron-right"></i>    
+                </button>
+            </form>  
+            <p class="copyright">
+                Site criado por LinJTF &copy; Todos os direitos reservados 
+            </p> 
+        </section>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
